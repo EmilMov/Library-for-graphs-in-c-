@@ -144,7 +144,3 @@ auto result = dwg.Bellman_Ford(1, 3);             // supports negative weights
 - Self-loops (`addedge(a, a)`) are ignored in unweighted graphs.
 - Path-finding methods return an empty vector when the nodes don't exist or no path is found.
 - Constructing a graph from an integer (e.g. `Graph<int> g(5)`) is deleted on purpose.
-
-## License
-
-[Add your license here]
